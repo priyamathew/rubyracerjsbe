@@ -1,0 +1,82 @@
+<a href="/" alt="home">Home</a>
+<h1>BEST racer EVVVAAAA </h1>
+<h2>Players: <%= @player1.name %> & <%= @player2.name %></h2>
+<table class="racer_table">
+  <tr id="player1_strip">
+    <td class="active"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class='last_cell'></td>
+  </tr>
+
+   <tr id="player2_strip">
+    <td class="active"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class='last_cell'></td>
+  </tr>
+</table>
+
+<!-- hidden form to gather input for who won -->
+<form action="/player1_wins">
+    <input type="hidden" name="<%= @player1.id %>" >
+    <input type = "submit"> hide this with css 
+</form>
+<form action="/player2_wins"></form>
+
+
+
+
+
